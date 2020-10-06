@@ -1,0 +1,10 @@
+.MenuToggler {
+    color: white;
+    font-size: 32px;
+}
+
+@media (min-width: 500px) {
+    .MenuToggler {
+        display: none;
+    }
+}
