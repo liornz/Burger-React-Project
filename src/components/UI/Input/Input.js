@@ -8,6 +8,7 @@ const Input = (props) => {
   if (props.invalid && props.shouldValidate && props.touched) {
       inputClasses.push(classes.Invalid);
   }
+  
 
   switch (props.elementType) {
     case "input":
